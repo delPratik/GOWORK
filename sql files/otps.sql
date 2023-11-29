@@ -1,0 +1,7 @@
+CREATE TABLE otps (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    email VARCHAR(255) NOT NULL,
+    otp INT NOT NULL,
+    created_at TIMESTAMP NOT NULL,
+    expired_at TIMESTAMP NOT NULL
+);
